@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="300" viewBox="0 0 1280 300" role="img" aria-labelledby="title desc">
+  <title id="title">이선우 개발자 프로필</title>
+  <desc id="desc">백엔드 개발, 검색 시스템, 업무 자동화</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="0.55" stop-color="#111c31"/>
+      <stop offset="1" stop-color="#13283b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#2dd4bf"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#94a3b8" stroke-opacity="0.08" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="300" rx="18" fill="url(#background)"/>
+  <rect width="1280" height="300" rx="18" fill="url(#grid)"/>
+  <rect x="72" y="58" width="6" height="184" rx="3" fill="url(#accent)"/>
+
+  <text x="112" y="126" fill="#f8fafc" font-family="Pretendard, Noto Sans KR, Apple SD Gothic Neo, sans-serif" font-size="54" font-weight="700" letter-spacing="-1">이선우</text>
+  <text x="112" y="173" fill="#cbd5e1" font-family="Pretendard, Noto Sans KR, Apple SD Gothic Neo, sans-serif" font-size="24" font-weight="500">백엔드 개발 · 검색 시스템 · 업무 자동화</text>
+  <text x="112" y="215" fill="#7dd3fc" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" letter-spacing="1.5">BACKEND ENGINEERING / SEARCH SYSTEMS / BUSINESS AUTOMATION</text>
+
+  <g transform="translate(830 68)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">
+    <rect width="346" height="164" rx="12" fill="#020617" fill-opacity="0.66" stroke="#334155"/>
+    <circle cx="24" cy="23" r="5" fill="#fb7185"/>
+    <circle cx="42" cy="23" r="5" fill="#fbbf24"/>
+    <circle cx="60" cy="23" r="5" fill="#34d399"/>
+    <text x="24" y="65" fill="#64748b">01</text>
+    <text x="58" y="65" fill="#e2e8f0">Kotlin / Spring Boot</text>
+    <text x="24" y="94" fill="#64748b">02</text>
+    <text x="58" y="94" fill="#e2e8f0">Python / FastAPI</text>
+    <text x="24" y="123" fill="#64748b">03</text>
+    <text x="58" y="123" fill="#e2e8f0">PostgreSQL / pgvector</text>
+    <text x="24" y="148" fill="#2dd4bf">status</text>
+    <text x="82" y="148" fill="#94a3b8">building reliable systems</text>
+  </g>
+</svg>
