@@ -122,9 +122,9 @@ RAG 파이프라인 · Spring Boot · Python/FastAPI · LLM 서빙 전문
 
 ![GitHub Streak](https://streak-stats.demolab.com/?user=sunwoo8478&theme=github-dark-blue&hide_border=true&locale=ko&date_format=Y.m.j)
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=sunwoo8478&show_icons=true&theme=github_dark&hide_border=true&locale=kr&rank_icon=github&include_all_commits=true&count_private=true)
+![GitHub stats](https://github-readme-stats-theta-eight-41.vercel.app/api?username=sunwoo8478&show_icons=true&theme=github_dark&hide_border=true&locale=kr&rank_icon=github&include_all_commits=true&count_private=true)
 
-![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=sunwoo8478&layout=compact&theme=github_dark&hide_border=true&langs_count=8)
+![Top languages](https://github-readme-stats-theta-eight-41.vercel.app/api/top-langs/?username=sunwoo8478&layout=compact&theme=github_dark&hide_border=true&langs_count=8)
 
 ### 🏆 GitHub 트로피
 
