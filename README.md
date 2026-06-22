@@ -131,12 +131,22 @@
 
 <div align="center">
 
+### GitHub 기본 기여 그래프
+
+![전체 기여](https://img.shields.io/badge/전체_기여-194-2EA44F?style=for-the-badge&logo=github&logoColor=white)
+![집계 범위](https://img.shields.io/badge/집계_범위-공개_및_익명_비공개_기여-0969DA?style=for-the-badge&logo=github&logoColor=white)
+![기준일](https://img.shields.io/badge/기준일-2026--06--22-6E7781?style=flat-square)
+
+GitHub 기본 기여 그래프에 표시된 최근 1년 기준 수치입니다.
+
+### 공개 저장소 통계
+
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=sunwoo8478&show_icons=true&theme=github_dark&hide_border=true&locale=kr&rank_icon=github)
 
 ![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=sunwoo8478&layout=compact&theme=github_dark&hide_border=true&langs_count=8)
 
-![GitHub streak](https://streak-stats.demolab.com?user=sunwoo8478&theme=github-dark-blue&hide_border=true&locale=ko)
-
 ![Profile details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=sunwoo8478&theme=github_dark)
+
+위 통계 카드는 외부 서비스에서 조회 가능한 공개 저장소만 집계합니다.
 
 </div>
