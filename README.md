@@ -4,15 +4,26 @@
 
 # 이선우 | 백엔드 · AI 개발자
 
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=0969DA&center=true&vCenter=true&width=600&lines=Backend+%26+AI+Developer;RAG+Pipeline+%7C+LLM+Serving;Spring+Boot+%7C+FastAPI+%7C+Python;항상+성장하는+개발자)](https://git.io/typing-svg)
+
 백엔드 시스템과 AI 검색 기반 서비스를 개발합니다.<br>
 RAG 파이프라인 · Spring Boot · Python/FastAPI · LLM 서빙 전문
 
 ![Visitor Count](https://komarev.com/ghpvc/?username=sunwoo8478&color=0969DA&style=for-the-badge&label=PROFILE+VIEWS)
 
-[![GitHub followers](https://img.shields.io/github/followers/sunwoo8478?style=flat-square&logo=github&label=Followers)](https://github.com/sunwoo8478?tab=followers)
-[![Profile updated](https://img.shields.io/github/last-commit/sunwoo8478/sunwoo8478?style=flat-square&logo=github&label=Profile%20updated)](https://github.com/sunwoo8478/sunwoo8478)
+### 연락처
+
+[![Email](https://img.shields.io/badge/Email-sunwoomjc@widiservice.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sunwoomjc@widiservice.com)
+[![GitHub](https://img.shields.io/badge/GitHub-sunwoo8478-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sunwoo8478)
 
 </div>
+
+---
+
+## 🔭 현재 하고 있는 일
+
+- **서울노동권익센터 AI 챗봇** 개발 및 KT Cloud A100 서버 부하 테스트
+- Gemma 3 12B (vLLM) + RAG 파이프라인 성능 최적화
 
 ---
 
@@ -52,13 +63,9 @@ RAG 파이프라인 · Spring Boot · Python/FastAPI · LLM 서빙 전문
 
 한국어 공공데이터를 검색하고 근거 기반 답변을 제공하는 RAG 서비스.
 
-- 정확 일치 + 벡터 검색 하이브리드, 리랭킹, 출처 추적
-- 스트리밍 응답, 문서 수집, 관리자 기능
-
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![pgvector](https://img.shields.io/badge/pgvector-336791?style=flat-square&logo=postgresql&logoColor=white)
 ![React](https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 
 ---
@@ -67,7 +74,6 @@ RAG 파이프라인 · Spring Boot · Python/FastAPI · LLM 서빙 전문
 
 [![CI](https://github.com/sunwoo8478/ERP/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/sunwoo8478/ERP/actions/workflows/ci.yml)
 [![Last commit](https://img.shields.io/github/last-commit/sunwoo8478/ERP?style=flat-square&logo=git)](https://github.com/sunwoo8478/ERP/commits/main)
-[![Top language](https://img.shields.io/github/languages/top/sunwoo8478/ERP?style=flat-square)](https://github.com/sunwoo8478/ERP)
 
 직원·근태·급여 계산·법정 공제·명세서 업무를 연결한 HR 시스템.
 
@@ -129,6 +135,14 @@ RAG 파이프라인 · Spring Boot · Python/FastAPI · LLM 서빙 전문
 ### 🏆 GitHub 트로피
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=sunwoo8478&theme=darkhub&no-frame=true&row=1&column=6)](https://github.com/ryo-ma/github-profile-trophy)
+
+### 🐍 기여 그래프
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sunwoo8478/sunwoo8478/output/snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sunwoo8478/sunwoo8478/output/snake.svg">
+  <img alt="snake animation" src="https://raw.githubusercontent.com/sunwoo8478/sunwoo8478/output/snake.svg">
+</picture>
 
 ![Profile details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=sunwoo8478&theme=github_dark)
 
