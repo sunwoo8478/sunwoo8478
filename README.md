@@ -24,7 +24,7 @@ Backend · AI Search · RAG · LLM Serving
 
 | Now | Details |
 | --- | --- |
-| Main work | 서울노동권익센터 AI 상담 챗봇 |
+| Main work | 서울노동포털 AI 상담 챗봇 |
 | Focus | RAG 품질 개선, vLLM 서빙, 부하 테스트 |
 | Backend | Spring Boot, FastAPI |
 | Infra | Docker, GitHub Actions, Linux, KT Cloud GPU |
@@ -37,7 +37,7 @@ Backend · AI Search · RAG · LLM Serving
 
 ## Projects
 
-### 서울노동권익센터 AI 노무상담 챗봇
+### 서울노동포털 AI 노무상담 챗봇
 
 비공개 프로젝트입니다. 노동 상담 데이터를 기반으로 답변 근거를 찾고, 필요한 경우 상담 연계까지 이어지는 흐름을 만들고 있습니다.
 
