@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="520" viewBox="0 0 1280 520" role="img" aria-labelledby="title desc">
+  <title id="title">Backend and AI search system board</title>
+  <desc id="desc">A system board describing documents, retrieval, reranking, LLM serving, API, data, observability, and users.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#020617"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#64748b"/>
+    </marker>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+      .sans { font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .card { fill: #0b1120; stroke: #1e293b; }
+      .muted { fill: #94a3b8; }
+      .text { fill: #e5e7eb; }
+    </style>
+  </defs>
+
+  <rect width="1280" height="520" rx="28" fill="url(#bg)"/>
+  <text x="64" y="62" class="sans" fill="#f8fafc" font-size="32" font-weight="760">System Board</text>
+  <text x="64" y="94" class="mono muted" font-size="15">from documents to answers, from APIs to operations</text>
+  <path d="M64 120H1216" stroke="#334155"/>
+
+  <g transform="translate(64 158)">
+    <rect class="card" width="168" height="98" rx="18"/>
+    <text x="22" y="38" class="sans text" font-size="18" font-weight="700">Documents</text>
+    <text x="22" y="66" class="mono muted" font-size="13">PDF · Sheets</text>
+    <text x="22" y="86" class="mono muted" font-size="13">standards · logs</text>
+  </g>
+
+  <g transform="translate(278 158)">
+    <rect class="card" width="168" height="98" rx="18"/>
+    <text x="22" y="38" class="sans text" font-size="18" font-weight="700">Retrieval</text>
+    <text x="22" y="66" class="mono muted" font-size="13">exact search</text>
+    <text x="22" y="86" class="mono muted" font-size="13">pgvector</text>
+  </g>
+
+  <g transform="translate(492 158)">
+    <rect class="card" width="168" height="98" rx="18"/>
+    <text x="22" y="38" class="sans text" font-size="18" font-weight="700">Rerank</text>
+    <text x="22" y="66" class="mono muted" font-size="13">candidate merge</text>
+    <text x="22" y="86" class="mono muted" font-size="13">quality gate</text>
+  </g>
+
+  <g transform="translate(706 158)">
+    <rect class="card" width="168" height="98" rx="18"/>
+    <text x="22" y="38" class="sans text" font-size="18" font-weight="700">LLM Serving</text>
+    <text x="22" y="66" class="mono muted" font-size="13">vLLM · SSE</text>
+    <text x="22" y="86" class="mono muted" font-size="13">TTFT check</text>
+  </g>
+
+  <g transform="translate(920 158)">
+    <rect class="card" width="168" height="98" rx="18"/>
+    <text x="22" y="38" class="sans text" font-size="18" font-weight="700">Product API</text>
+    <text x="22" y="66" class="mono muted" font-size="13">Spring / FastAPI</text>
+    <text x="22" y="86" class="mono muted" font-size="13">admin flows</text>
+  </g>
+
+  <path d="M240 207H270" stroke="#64748b" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <path d="M454 207H484" stroke="#64748b" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <path d="M668 207H698" stroke="#64748b" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <path d="M882 207H912" stroke="#64748b" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <g transform="translate(170 324)">
+    <rect class="card" width="246" height="112" rx="18"/>
+    <text x="24" y="40" class="sans text" font-size="18" font-weight="700">Data Layer</text>
+    <text x="24" y="70" class="mono muted" font-size="13">PostgreSQL · MariaDB · Redis</text>
+    <text x="24" y="92" class="mono muted" font-size="13">indexing · migration · cache</text>
+  </g>
+
+  <g transform="translate(517 324)">
+    <rect class="card" width="246" height="112" rx="18"/>
+    <text x="24" y="40" class="sans text" font-size="18" font-weight="700">Observability</text>
+    <text x="24" y="70" class="mono muted" font-size="13">request logs · latency</text>
+    <text x="24" y="92" class="mono muted" font-size="13">load test · recovery path</text>
+  </g>
+
+  <g transform="translate(864 324)">
+    <rect class="card" width="246" height="112" rx="18"/>
+    <text x="24" y="40" class="sans text" font-size="18" font-weight="700">Users</text>
+    <text x="24" y="70" class="mono muted" font-size="13">answer with evidence</text>
+    <text x="24" y="92" class="mono muted" font-size="13">clear failure boundary</text>
+  </g>
+
+  <path d="M362 258V314" stroke="#334155" stroke-width="2"/>
+  <path d="M790 258V314" stroke="#334155" stroke-width="2"/>
+  <path d="M1042 258V314" stroke="#334155" stroke-width="2"/>
+</svg>
