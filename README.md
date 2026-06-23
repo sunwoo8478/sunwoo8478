@@ -165,7 +165,7 @@ operate    배포, 모니터링, 부하 테스트, 장애 대응
 
 ![GitHub Streak](https://streak-stats.demolab.com/?user=sunwoo8478&theme=github-dark-blue&hide_border=true&locale=ko&date_format=Y.m.j)
 
-<img src="./assets/github-metrics.svg" width="90%" alt="이선우 GitHub 지표">
+<img src="./assets/github-stats-card.svg" width="90%" alt="이선우 GitHub 지표">
 
 ### 기여 그래프
 
