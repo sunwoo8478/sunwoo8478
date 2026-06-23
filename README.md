@@ -7,122 +7,81 @@
 ╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝ ╚═════╝
 ```
 
-# Hello, I'm 이선우
+# 이선우
 
-Backend · AI Search · RAG · LLM Serving
+Backend / AI Search Engineer  
+RAG pipeline, LLM serving, API design, operation-minded backend
 
-[![Email](https://img.shields.io/badge/Email-sunwoomjc@widiservice.com-111111?style=flat-square&logo=gmail&logoColor=white)](mailto:sunwoomjc@widiservice.com)
 [![GitHub](https://img.shields.io/badge/GitHub-sunwoo8478-111111?style=flat-square&logo=github&logoColor=white)](https://github.com/sunwoo8478)
-[![Views](https://komarev.com/ghpvc/?username=sunwoo8478&color=111111&style=flat-square&label=views)](https://github.com/sunwoo8478)
+[![Email](https://img.shields.io/badge/Email-sunwoomjc@widiservice.com-111111?style=flat-square&logo=gmail&logoColor=white)](mailto:sunwoomjc@widiservice.com)
+[![Profile views](https://komarev.com/ghpvc/?username=sunwoo8478&color=111111&style=flat-square&label=views)](https://github.com/sunwoo8478)
 
 ```bash
-$ cat ./profile
+$ whoami
 name      Lee Sunwoo
 role      Backend / AI Search
-focus     RAG pipeline, LLM serving, API design
-current   Seoul Labor Portal AI counseling chatbot
+focus     RAG, retrieval quality, LLM serving, API systems
+working   Seoul Labor Portal AI counseling chatbot
 ```
 
 ---
 
-## About Me
+## 지금 집중하는 것
 
 백엔드와 AI 검색 시스템을 다룹니다.  
 요즘은 상담 도메인의 질문을 RAG 파이프라인으로 연결하고, GPU 서버에서 LLM 응답을 안정적으로 서빙하는 일을 하고 있습니다. 기능을 빠르게 붙이는 것보다, 나중에 문제가 생겼을 때 원인을 좁힐 수 있는 구조를 더 좋아합니다.
 
-| Now | Details |
+| Area | What I care about |
 | --- | --- |
-| Main work | 서울노동포털 AI 상담 챗봇 |
-| Focus | RAG 품질 개선, vLLM 서빙, 부하 테스트 |
-| Backend | Spring Boot, FastAPI |
-| Infra | Docker, GitHub Actions, Linux, KT Cloud GPU |
-
-## What I Work On
-
-| Area | I usually work on |
-| --- | --- |
-| RAG Pipeline | 문서 수집, 청킹, 검색, 리랭킹, 답변 근거 연결 |
-| LLM Serving | vLLM 서빙, 스트리밍 응답, TTFT, 동시 요청 처리 |
+| RAG Pipeline | 문서 수집, 청킹, 정확 검색, 벡터 검색, 리랭킹, 답변 근거 연결 |
+| LLM Serving | vLLM, SSE streaming, TTFT, throughput, concurrent requests |
 | Backend | API 설계, 도메인 모델링, 인증/인가, 관리자 기능 |
-| Data | MariaDB, PostgreSQL, pgvector, Redis 기반 저장 구조 |
-| Operations | Docker, GitHub Actions, 로그, 부하 테스트, 운영 지표 |
+| Data | PostgreSQL, pgvector, MariaDB, Redis, migration, indexing |
+| Operation | Docker, GitHub Actions, Linux, logs, load test, recovery path |
 
-## Connect with Me
+## 대표 작업
 
-| GitHub | Email | Work |
+| Project | What it shows | Stack |
 | --- | --- | --- |
-| [![GitHub](https://img.shields.io/badge/sunwoo8478-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sunwoo8478) | [![Email](https://img.shields.io/badge/contact-111111?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sunwoomjc@widiservice.com) | ![Backend](https://img.shields.io/badge/backend%20%2B%20AI%20search-111111?style=for-the-badge) |
+| [Korean Knowledge Assistant](https://github.com/sunwoo8478/korean-chatbot) | 정확 검색과 벡터 검색을 함께 쓰는 한국어 RAG 서비스. 답변 근거, 리랭킹, SSE 스트리밍, 운영 콘솔까지 묶었습니다. [Architecture](https://github.com/sunwoo8478/korean-chatbot/blob/main/docs/ARCHITECTURE.md) · [Operations](https://github.com/sunwoo8478/korean-chatbot/blob/main/docs/OPERATIONS.md) | FastAPI, PostgreSQL, pgvector, React |
+| [PayFit ERP](https://github.com/sunwoo8478/ERP) | 직원, 근태, 급여 계산, 공제, 승인, 명세서 흐름을 도메인 중심으로 구성한 HR·Payroll 시스템입니다. [Architecture](https://github.com/sunwoo8478/ERP/blob/master/docs/ARCHITECTURE.md) · [Payroll Rules](https://github.com/sunwoo8478/ERP/blob/master/docs/PAYROLL_RULES.md) | Kotlin, Spring Boot, PostgreSQL, React |
+| 서울노동포털 AI 노무상담 챗봇 | 비공개 프로젝트입니다. 노동 상담 데이터를 기반으로 검색 근거를 찾고, 상담 연계까지 이어지는 흐름을 만들고 있습니다. | Java, Spring Boot, React, MariaDB, vLLM |
 
-## Projects
+## 프로젝트에서 드러나는 것
 
-### 서울노동포털 AI 노무상담 챗봇
+| Question | My answer in code |
+| --- | --- |
+| 검색 결과가 틀리면 어떻게 확인할까 | exact/vector/rerank 단계를 분리하고 후보를 추적합니다. |
+| LLM 응답이 늦으면 어디를 볼까 | TTFT, 토큰 처리량, 리랭커 latency, DB query를 나눠 봅니다. |
+| 업무 도메인이 복잡하면 어떻게 나눌까 | 실행 단위, 상태 전이, 계산 결과, 이력을 분리합니다. |
+| 운영에서 문제가 나면 어떻게 좁힐까 | 요청 로그, 헬스 체크, 설정 값, 외부 endpoint를 먼저 봅니다. |
 
-비공개 프로젝트입니다. 노동 상담 데이터를 기반으로 답변 근거를 찾고, 필요한 경우 상담 연계까지 이어지는 흐름을 만들고 있습니다.
-
-![Java](https://img.shields.io/badge/Java-111111?style=flat-square&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-111111?style=flat-square&logo=springboot&logoColor=white)
-![React](https://img.shields.io/badge/React-111111?style=flat-square&logo=react&logoColor=white)
-![MariaDB](https://img.shields.io/badge/MariaDB-111111?style=flat-square&logo=mariadb&logoColor=white)
-![vLLM](https://img.shields.io/badge/vLLM-111111?style=flat-square&logo=nvidia&logoColor=white)
-
-- Gemma 3 12B, bge-m3, BGE-Reranker
-- A100 80GB GPU 서버에서 vLLM 서빙 및 부하 테스트
-- SSE 스트리밍, 시맨틱 캐시, 상담 연계 흐름
-- 관리자 화면과 상담 이력 관리 흐름 설계
-
-### [한국어 지식 기반 RAG 어시스턴트](https://github.com/sunwoo8478/korean-chatbot)
-
-한국어 공공데이터 문서를 검색하고 답변 근거를 함께 보여주는 RAG 서비스입니다.
-
-[![CI](https://github.com/sunwoo8478/korean-chatbot/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/sunwoo8478/korean-chatbot/actions/workflows/ci.yml)
-[![Last commit](https://img.shields.io/github/last-commit/sunwoo8478/korean-chatbot?style=flat-square&color=111111)](https://github.com/sunwoo8478/korean-chatbot/commits/main)
-[![Top language](https://img.shields.io/github/languages/top/sunwoo8478/korean-chatbot?style=flat-square&color=111111)](https://github.com/sunwoo8478/korean-chatbot)
-
-![Python](https://img.shields.io/badge/Python-111111?style=flat-square&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-111111?style=flat-square&logo=fastapi&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-111111?style=flat-square&logo=postgresql&logoColor=white)
-![React](https://img.shields.io/badge/React-111111?style=flat-square&logo=react&logoColor=white)
-
-- FastAPI 기반 검색 API
-- PostgreSQL/pgvector 기반 벡터 검색
-- 프론트엔드에서 답변 근거를 함께 확인하는 흐름
-
-### [PayFit ERP](https://github.com/sunwoo8478/ERP)
-
-근태, 급여 계산, 법정 공제, 명세서 발급 흐름을 하나로 묶은 HR 시스템입니다.
-
-[![CI](https://github.com/sunwoo8478/ERP/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/sunwoo8478/ERP/actions/workflows/ci.yml)
-[![Last commit](https://img.shields.io/github/last-commit/sunwoo8478/ERP?style=flat-square&color=111111)](https://github.com/sunwoo8478/ERP/commits/main)
-[![Top language](https://img.shields.io/github/languages/top/sunwoo8478/ERP?style=flat-square&color=111111)](https://github.com/sunwoo8478/ERP)
-
-![Kotlin](https://img.shields.io/badge/Kotlin-111111?style=flat-square&logo=kotlin&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-111111?style=flat-square&logo=springboot&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-111111?style=flat-square&logo=postgresql&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-111111?style=flat-square&logo=typescript&logoColor=white)
-
-- 직원, 근태, 급여 도메인 모델링
-- 법정 공제 계산과 명세서 흐름 정리
-- Kotlin/Spring Boot 기반 업무 시스템 구조 설계
-
-## Tech Stack
+## Stack
 
 <div align="center">
 
 <img src="https://skillicons.dev/icons?i=java,kotlin,python,ts,js,spring,fastapi,react&theme=dark" alt="Backend and frontend stack">
 <br>
-<img src="https://skillicons.dev/icons?i=pytorch,postgres,mysql,redis,elasticsearch,docker,githubactions,linux,grafana&theme=dark" alt="AI data and infrastructure stack">
+<img src="https://skillicons.dev/icons?i=postgres,mysql,redis,elasticsearch,docker,githubactions,linux,grafana,pytorch&theme=dark" alt="Data AI and infrastructure stack">
 
 </div>
 
-## Git Stats
+| Backend | AI / Search | Data | Frontend | Infra |
+| --- | --- | --- | --- | --- |
+| ![Java](https://img.shields.io/badge/Java-111111?style=flat-square&logo=openjdk&logoColor=white) ![Kotlin](https://img.shields.io/badge/Kotlin-111111?style=flat-square&logo=kotlin&logoColor=white) ![Python](https://img.shields.io/badge/Python-111111?style=flat-square&logo=python&logoColor=white) | ![RAG](https://img.shields.io/badge/RAG-111111?style=flat-square) ![vLLM](https://img.shields.io/badge/vLLM-111111?style=flat-square&logo=nvidia&logoColor=white) ![Embedding](https://img.shields.io/badge/Embedding-111111?style=flat-square) | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-111111?style=flat-square&logo=postgresql&logoColor=white) ![MariaDB](https://img.shields.io/badge/MariaDB-111111?style=flat-square&logo=mariadb&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-111111?style=flat-square&logo=redis&logoColor=white) | ![React](https://img.shields.io/badge/React-111111?style=flat-square&logo=react&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-111111?style=flat-square&logo=typescript&logoColor=white) | ![Docker](https://img.shields.io/badge/Docker-111111?style=flat-square&logo=docker&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-111111?style=flat-square&logo=linux&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-111111?style=flat-square&logo=githubactions&logoColor=white) |
+
+## GitHub
 
 <div align="center">
 
-![GitHub Streak](https://streak-stats.demolab.com/?user=sunwoo8478&theme=dark&hide_border=true&locale=ko&date_format=Y.m.j)
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=sunwoo8478&theme=github_dark" width="100%" alt="profile details">
 
-<img src="./assets/github-stats-card.svg" width="100%" alt="이선우 GitHub 지표">
+<img src="https://streak-stats.demolab.com/?user=sunwoo8478&theme=github-dark-blue&hide_border=true&locale=ko&date_format=Y.m.j" width="49%" alt="GitHub streak">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=sunwoo8478&theme=github_dark" width="49%" alt="repos per language">
 
-### Contribution Graph
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=sunwoo8478&theme=github-compact&hide_border=true&area=true&custom_title=Contribution%20Graph" width="100%" alt="GitHub activity graph">
+
+### Contribution Snake
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sunwoo8478/sunwoo8478/output/snake-dark.svg">
@@ -134,10 +93,10 @@ current   Seoul Labor Portal AI counseling chatbot
 
 ## Notes
 
-| Topic | Focus |
+| Topic | Note |
 | --- | --- |
-| API | 요청과 응답이 명확한 구조 |
-| Search | 실패 케이스를 수집하고 개선할 수 있는 검색 흐름 |
-| LLM Serving | TTFT, 처리량, 동시 요청 수를 실제로 측정하는 운영 |
-| Data | 인덱스, 트랜잭션, 마이그레이션을 고려한 설계 |
-| Logs | 문제가 생겼을 때 위치를 좁힐 수 있는 기록 |
+| API | 요청과 응답이 명확한 구조를 선호합니다. |
+| Search | 실패 케이스를 모으고 다시 검색 품질로 되돌리는 흐름을 중요하게 봅니다. |
+| LLM Serving | “돌아간다”보다 “어디서 느린지 안다”를 더 중요하게 봅니다. |
+| Data | 인덱스, 트랜잭션, 마이그레이션을 같이 생각합니다. |
+| Logs | 장애가 났을 때 범위를 좁힐 수 있는 기록을 남기려 합니다. |
