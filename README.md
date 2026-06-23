@@ -28,7 +28,7 @@ RAG 파이프라인 · Spring Boot · Python/FastAPI · LLM 서빙 전문
 
 ---
 
-## 현재 집중하는 일
+## 지금 만드는 것
 
 - **서울노동권익센터 AI 챗봇** 개발 및 KT Cloud A100 서버 부하 테스트
 - Gemma 3 12B (vLLM) + RAG 파이프라인 성능 최적화
@@ -36,26 +36,17 @@ RAG 파이프라인 · Spring Boot · Python/FastAPI · LLM 서빙 전문
 
 ---
 
-## 일하는 방식
+## 작업 기준
 
-| 기준 | 내용 |
+| 단계 | 기준 |
 | --- | --- |
-| 문제 정의 | 사용자가 실제로 막히는 지점을 먼저 확인하고 기능 범위를 정합니다. |
-| 설계 | 도메인 모델, API 흐름, 데이터 구조를 먼저 정리한 뒤 구현합니다. |
-| 성능 | 검색 품질, 응답 시간, 동시 요청 처리, 운영 지표를 함께 확인합니다. |
-| 운영 | 배포 이후 로그, 모니터링, 장애 가능성까지 보고 마무리합니다. |
+| Problem | 사용자가 실제로 막히는 지점과 업무 흐름을 먼저 확인합니다. |
+| Design | 도메인 모델, API 계약, 데이터 흐름을 구현 전에 정리합니다. |
+| Build | Spring Boot, FastAPI, React 기반으로 작게 만들고 빠르게 검증합니다. |
+| Measure | 검색 품질, TTFT, 처리량, 오류 로그를 숫자로 확인합니다. |
+| Operate | 배포 이후 로그, 지표, 장애 가능성까지 보고 마무리합니다. |
 
-## 엔지니어링 기준
-
-```txt
-input      사용자의 실제 질문과 업무 흐름
-design     도메인 모델, API 계약, 데이터 흐름
-build      Spring Boot / FastAPI / React 기반 구현
-measure    TTFT, 처리량, 검색 품질, 오류 로그
-operate    배포, 모니터링, 부하 테스트, 장애 대응
-```
-
-| 체크포인트 | 보는 기준 |
+| 체크포인트 | 보는 것 |
 | --- | --- |
 | API | 요청/응답 구조가 명확한가, 예외 응답이 일관적인가 |
 | Search | 검색 실패 케이스를 수집하고 개선 가능한 구조인가 |
@@ -63,20 +54,13 @@ operate    배포, 모니터링, 부하 테스트, 장애 대응
 | Data | 인덱스, 트랜잭션, 마이그레이션 전략이 정리되어 있는가 |
 | Ops | 로그와 지표로 문제 위치를 좁힐 수 있는가 |
 
-## 개발 분야
-
-| 분야 | 주로 다루는 문제 |
-| --- | --- |
-| AI · 검색 시스템 | RAG 파이프라인, 벡터 검색, 리랭킹, LLM 서빙, 시맨틱 캐시 |
-| 백엔드 | API 설계, 도메인 모델링, 인증·인가, 성능 최적화 |
-| 업무 시스템 | 급여 계산, 법정 공제, 근태 및 인사 업무 자동화 |
-| 인프라 | Docker, CI/CD, 부하 테스트, GPU 서버 운영, 모니터링 |
-
-## 설계 메모
+## 시스템 설계 메모
 
 <img src="./assets/rag-architecture.svg" width="100%" alt="RAG 아키텍처 흐름">
 
 ## 대표 프로젝트
+
+<img src="./assets/project-showcase.svg" width="100%" alt="대표 프로젝트 쇼케이스">
 
 ### 서울노동권익센터 AI 노무상담 챗봇 (비공개)
 
@@ -126,29 +110,19 @@ operate    배포, 모니터링, 부하 테스트, 장애 대응
 
 ## 기술 스택
 
+<img src="./assets/stack-matrix.svg" width="100%" alt="기술 스택 매트릭스">
+
 <div align="center">
 
-### 주력 스택
+### Stack Icons
 
 <img src="https://skillicons.dev/icons?i=java,kotlin,python,ts,js,spring,fastapi,react&theme=dark" alt="Core stack" />
-
-### AI · 검색 · 데이터
-
+<br>
 <img src="https://skillicons.dev/icons?i=pytorch,postgres,mysql,redis,elasticsearch,grafana&theme=dark" alt="AI search data stack" />
-
-### 프론트엔드 · 인프라 · 도구
-
+<br>
 <img src="https://skillicons.dev/icons?i=vite,tailwind,docker,githubactions,git,linux,idea,vscode&theme=dark" alt="Frontend infrastructure tools" />
 
 </div>
-
-| 구분 | 사용 기술 |
-| --- | --- |
-| Backend | Java, Kotlin, Spring Boot, Spring Security, FastAPI |
-| AI · Search | RAG, vLLM, Ollama, bge-m3, BGE-Reranker, Semantic Cache |
-| Data | PostgreSQL, MariaDB, pgvector, Redis, InfluxDB |
-| Frontend | React, TypeScript, Vite, Tailwind CSS |
-| Infra | Docker, GitHub Actions, Linux, Grafana, KT Cloud GPU |
 
 ## 현재 관심사
 
