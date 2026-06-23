@@ -24,6 +24,10 @@ RAG 파이프라인 · Spring Boot · Python/FastAPI · LLM 서빙 전문
 
 ---
 
+<img src="./assets/engineering-dashboard.svg" width="100%" alt="이선우 엔지니어링 대시보드">
+
+---
+
 ## 현재 집중하는 일
 
 - **서울노동권익센터 AI 챗봇** 개발 및 KT Cloud A100 서버 부하 테스트
@@ -41,6 +45,24 @@ RAG 파이프라인 · Spring Boot · Python/FastAPI · LLM 서빙 전문
 | 성능 | 검색 품질, 응답 시간, 동시 요청 처리, 운영 지표를 함께 확인합니다. |
 | 운영 | 배포 이후 로그, 모니터링, 장애 가능성까지 보고 마무리합니다. |
 
+## 엔지니어링 기준
+
+```txt
+input      사용자의 실제 질문과 업무 흐름
+design     도메인 모델, API 계약, 데이터 흐름
+build      Spring Boot / FastAPI / React 기반 구현
+measure    TTFT, 처리량, 검색 품질, 오류 로그
+operate    배포, 모니터링, 부하 테스트, 장애 대응
+```
+
+| 체크포인트 | 보는 기준 |
+| --- | --- |
+| API | 요청/응답 구조가 명확한가, 예외 응답이 일관적인가 |
+| Search | 검색 실패 케이스를 수집하고 개선 가능한 구조인가 |
+| LLM Serving | TTFT, 토큰 생성 속도, 동시 요청 처리량을 측정하는가 |
+| Data | 인덱스, 트랜잭션, 마이그레이션 전략이 정리되어 있는가 |
+| Ops | 로그와 지표로 문제 위치를 좁힐 수 있는가 |
+
 ## 개발 분야
 
 | 분야 | 주로 다루는 문제 |
@@ -49,6 +71,22 @@ RAG 파이프라인 · Spring Boot · Python/FastAPI · LLM 서빙 전문
 | 백엔드 | API 설계, 도메인 모델링, 인증·인가, 성능 최적화 |
 | 업무 시스템 | 급여 계산, 법정 공제, 근태 및 인사 업무 자동화 |
 | 인프라 | Docker, CI/CD, 부하 테스트, GPU 서버 운영, 모니터링 |
+
+## 설계 메모
+
+```mermaid
+flowchart LR
+    A[사용자 질문] --> B[Spring Boot API]
+    B --> C[질문 정규화]
+    C --> D[Vector Search]
+    D --> E[Reranker]
+    E --> F[Prompt Builder]
+    F --> G[vLLM / Ollama]
+    G --> H[SSE Streaming]
+    H --> I[사용자 답변]
+    B --> J[Logs / Metrics]
+    G --> J
+```
 
 ## 대표 프로젝트
 
