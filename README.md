@@ -15,12 +15,20 @@ Backend · AI Search · RAG · LLM Serving
 [![GitHub](https://img.shields.io/badge/GitHub-sunwoo8478-111111?style=flat-square&logo=github&logoColor=white)](https://github.com/sunwoo8478)
 [![Views](https://komarev.com/ghpvc/?username=sunwoo8478&color=111111&style=flat-square&label=views)](https://github.com/sunwoo8478)
 
+```bash
+$ cat ./profile
+name      Lee Sunwoo
+role      Backend / AI Search
+focus     RAG pipeline, LLM serving, API design
+current   Seoul Labor Portal AI counseling chatbot
+```
+
 ---
 
 ## About Me
 
 백엔드와 AI 검색 시스템을 다룹니다.  
-요즘은 상담 도메인의 질문을 RAG 파이프라인으로 연결하고, GPU 서버에서 LLM 응답을 안정적으로 서빙하는 일을 하고 있습니다.
+요즘은 상담 도메인의 질문을 RAG 파이프라인으로 연결하고, GPU 서버에서 LLM 응답을 안정적으로 서빙하는 일을 하고 있습니다. 기능을 빠르게 붙이는 것보다, 나중에 문제가 생겼을 때 원인을 좁힐 수 있는 구조를 더 좋아합니다.
 
 | Now | Details |
 | --- | --- |
@@ -28,6 +36,16 @@ Backend · AI Search · RAG · LLM Serving
 | Focus | RAG 품질 개선, vLLM 서빙, 부하 테스트 |
 | Backend | Spring Boot, FastAPI |
 | Infra | Docker, GitHub Actions, Linux, KT Cloud GPU |
+
+## What I Work On
+
+| Area | I usually work on |
+| --- | --- |
+| RAG Pipeline | 문서 수집, 청킹, 검색, 리랭킹, 답변 근거 연결 |
+| LLM Serving | vLLM 서빙, 스트리밍 응답, TTFT, 동시 요청 처리 |
+| Backend | API 설계, 도메인 모델링, 인증/인가, 관리자 기능 |
+| Data | MariaDB, PostgreSQL, pgvector, Redis 기반 저장 구조 |
+| Operations | Docker, GitHub Actions, 로그, 부하 테스트, 운영 지표 |
 
 ## Connect with Me
 
@@ -50,6 +68,7 @@ Backend · AI Search · RAG · LLM Serving
 - Gemma 3 12B, bge-m3, BGE-Reranker
 - A100 80GB GPU 서버에서 vLLM 서빙 및 부하 테스트
 - SSE 스트리밍, 시맨틱 캐시, 상담 연계 흐름
+- 관리자 화면과 상담 이력 관리 흐름 설계
 
 ### [한국어 지식 기반 RAG 어시스턴트](https://github.com/sunwoo8478/korean-chatbot)
 
@@ -64,6 +83,10 @@ Backend · AI Search · RAG · LLM Serving
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-111111?style=flat-square&logo=postgresql&logoColor=white)
 ![React](https://img.shields.io/badge/React-111111?style=flat-square&logo=react&logoColor=white)
 
+- FastAPI 기반 검색 API
+- PostgreSQL/pgvector 기반 벡터 검색
+- 프론트엔드에서 답변 근거를 함께 확인하는 흐름
+
 ### [PayFit ERP](https://github.com/sunwoo8478/ERP)
 
 근태, 급여 계산, 법정 공제, 명세서 발급 흐름을 하나로 묶은 HR 시스템입니다.
@@ -76,6 +99,10 @@ Backend · AI Search · RAG · LLM Serving
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-111111?style=flat-square&logo=springboot&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-111111?style=flat-square&logo=postgresql&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-111111?style=flat-square&logo=typescript&logoColor=white)
+
+- 직원, 근태, 급여 도메인 모델링
+- 법정 공제 계산과 명세서 흐름 정리
+- Kotlin/Spring Boot 기반 업무 시스템 구조 설계
 
 ## Tech Stack
 
