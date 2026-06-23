@@ -132,11 +132,7 @@ RAG 파이프라인 · Spring Boot · Python/FastAPI · LLM 서빙 전문
 
 ![Top languages](https://github-readme-stats-theta-eight-41.vercel.app/api/top-langs/?username=sunwoo8478&layout=compact&theme=github_dark&hide_border=true&langs_count=8)
 
-### 🏆 GitHub 트로피
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=sunwoo8478&theme=darkhub&no-frame=true&row=1&column=6)](https://github.com/ryo-ma/github-profile-trophy)
-
-### 🐍 기여 그래프
+### 기여 그래프
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sunwoo8478/sunwoo8478/output/snake-dark.svg">
