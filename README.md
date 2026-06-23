@@ -4,7 +4,7 @@
 
 # 이선우 | 백엔드 · AI 개발자
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=0969DA&center=true&vCenter=true&width=600&lines=Backend+%26+AI+Developer;RAG+Pipeline+%7C+LLM+Serving;Spring+Boot+%7C+FastAPI+%7C+Python;항상+성장하는+개발자)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=0969DA&center=true&vCenter=true&width=600&lines=Backend+%26+AI+Developer;RAG+Pipeline+%7C+LLM+Serving;Spring+Boot+%7C+FastAPI+%7C+Python)](https://git.io/typing-svg)
 
 백엔드 시스템과 AI 검색 기반 서비스를 개발합니다.<br>
 RAG 파이프라인 · Spring Boot · Python/FastAPI · LLM 서빙 전문
@@ -20,7 +20,7 @@ RAG 파이프라인 · Spring Boot · Python/FastAPI · LLM 서빙 전문
 
 ---
 
-## 🔭 현재 하고 있는 일
+## 현재 집중하는 일
 
 - **서울노동권익센터 AI 챗봇** 개발 및 KT Cloud A100 서버 부하 테스트
 - Gemma 3 12B (vLLM) + RAG 파이프라인 성능 최적화
@@ -38,7 +38,7 @@ RAG 파이프라인 · Spring Boot · Python/FastAPI · LLM 서빙 전문
 
 ## 대표 프로젝트
 
-### 🏛️ 서울노동권익센터 AI 노무상담 챗봇 (비공개)
+### 서울노동권익센터 AI 노무상담 챗봇 (비공개)
 
 서울특별시 노동자 종합지원센터에 도입할 AI 법률 상담 챗봇 서비스.
 
@@ -55,7 +55,7 @@ RAG 파이프라인 · Spring Boot · Python/FastAPI · LLM 서빙 전문
 
 ---
 
-### 🔍 [한국어 지식 기반 RAG 어시스턴트](https://github.com/sunwoo8478/korean-chatbot)
+### [한국어 지식 기반 RAG 어시스턴트](https://github.com/sunwoo8478/korean-chatbot)
 
 [![CI](https://github.com/sunwoo8478/korean-chatbot/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/sunwoo8478/korean-chatbot/actions/workflows/ci.yml)
 [![Last commit](https://img.shields.io/github/last-commit/sunwoo8478/korean-chatbot?style=flat-square&logo=git)](https://github.com/sunwoo8478/korean-chatbot/commits/main)
@@ -70,7 +70,7 @@ RAG 파이프라인 · Spring Boot · Python/FastAPI · LLM 서빙 전문
 
 ---
 
-### 💼 [PayFit ERP](https://github.com/sunwoo8478/ERP)
+### [PayFit ERP](https://github.com/sunwoo8478/ERP)
 
 [![CI](https://github.com/sunwoo8478/ERP/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/sunwoo8478/ERP/actions/workflows/ci.yml)
 [![Last commit](https://img.shields.io/github/last-commit/sunwoo8478/ERP?style=flat-square&logo=git)](https://github.com/sunwoo8478/ERP/commits/main)
@@ -86,39 +86,29 @@ RAG 파이프라인 · Spring Boot · Python/FastAPI · LLM 서빙 전문
 
 ## 기술 스택
 
-### Languages
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000000)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+<div align="center">
 
-### AI · Backend · Search
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![vLLM](https://img.shields.io/badge/vLLM-412991?style=for-the-badge&logo=nvidia&logoColor=white)
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
-![RAG](https://img.shields.io/badge/RAG-4F46E5?style=for-the-badge&logo=semanticweb&logoColor=white)
-![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white)
+### 주력 스택
 
-### Data
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white)
-![pgvector](https://img.shields.io/badge/pgvector-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![InfluxDB](https://img.shields.io/badge/InfluxDB-22ADF6?style=for-the-badge&logo=influxdb&logoColor=white)
+<img src="https://skillicons.dev/icons?i=java,kotlin,python,ts,js,spring,fastapi,react&theme=dark" alt="Core stack" />
 
-### Frontend
-![React](https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+### AI · 검색 · 데이터
 
-### Infra · Tools
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellijidea&logoColor=white)
+<img src="https://skillicons.dev/icons?i=pytorch,postgres,mysql,redis,elasticsearch,grafana&theme=dark" alt="AI search data stack" />
+
+### 프론트엔드 · 인프라 · 도구
+
+<img src="https://skillicons.dev/icons?i=vite,tailwind,docker,githubactions,git,linux,idea,vscode&theme=dark" alt="Frontend infrastructure tools" />
+
+</div>
+
+| 구분 | 사용 기술 |
+| --- | --- |
+| Backend | Java, Kotlin, Spring Boot, Spring Security, FastAPI |
+| AI · Search | RAG, vLLM, Ollama, bge-m3, BGE-Reranker, Semantic Cache |
+| Data | PostgreSQL, MariaDB, pgvector, Redis, InfluxDB |
+| Frontend | React, TypeScript, Vite, Tailwind CSS |
+| Infra | Docker, GitHub Actions, Linux, Grafana, KT Cloud GPU |
 
 ---
 
