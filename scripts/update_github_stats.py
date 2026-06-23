@@ -134,7 +134,7 @@ def collect_stats() -> dict:
     }
 
 
-def language_bar(languages: list[dict], x: int = 64, y: int = 462, total_width: int = 632) -> str:
+def language_bar(languages: list[dict], x: int = 64, y: int = 430, total_width: int = 632) -> str:
     parts = [f'<rect x="{x}" y="{y}" width="{total_width}" height="16" rx="8" fill="#21262d"/>']
     cursor = x
     for index, language in enumerate(languages):
@@ -153,7 +153,7 @@ def language_legend(languages: list[dict]) -> str:
         col = index % 2
         row = index // 2
         x = 64 + (340 * col)
-        y = 522 + (44 * row)
+        y = 480 + (36 * row)
         rows.append(
             f'<circle cx="{x + 10}" cy="{y + 8}" r="9" fill="{language["color"]}"/>\n'
             f'      <text x="{x + 30}" y="{y + 15}" fill="#c9d1d9">{escape(language["name"])} {language["percent"]:.2f}%</text>'
@@ -162,7 +162,7 @@ def language_legend(languages: list[dict]) -> str:
 
 
 def render(stats: dict) -> str:
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="760" height="760" viewBox="0 0 760 760" role="img" aria-labelledby="title desc" preserveAspectRatio="xMidYMid meet">
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="760" height="620" viewBox="0 0 760 620" role="img" aria-labelledby="title desc" preserveAspectRatio="xMidYMid meet">
   <title id="title">이선우 GitHub 통계</title>
   <desc id="desc">GitHub 활동과 사용 언어를 자동 갱신하는 다크 통계 카드</desc>
 
@@ -176,8 +176,8 @@ def render(stats: dict) -> str:
     </filter>
   </defs>
 
-  <rect width="760" height="760" rx="22" fill="url(#bg)"/>
-  <rect x="20" y="20" width="720" height="720" rx="18" fill="none" stroke="#30363d"/>
+  <rect width="760" height="620" rx="22" fill="url(#bg)"/>
+  <rect x="20" y="20" width="720" height="580" rx="18" fill="none" stroke="#30363d"/>
 
   <g font-family="Pretendard, Noto Sans KR, Apple SD Gothic Neo, Segoe UI, sans-serif">
     <text x="64" y="76" fill="#58a6ff" font-size="30" font-weight="800">이선우의 GitHub 통계</text>
@@ -223,7 +223,7 @@ def render(stats: dict) -> str:
       </g>
     </g>
 
-    <text x="64" y="424" fill="#58a6ff" font-size="30" font-weight="800">Most Used Languages</text>
+    <text x="64" y="398" fill="#58a6ff" font-size="30" font-weight="800">Most Used Languages</text>
 
     <g>
       {language_bar(stats["languages"])}
