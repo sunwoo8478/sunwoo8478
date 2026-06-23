@@ -11,15 +11,7 @@
 
 ---
 
-<img src="./assets/developer-os.svg" width="100%" alt="Sunwoo DevOS">
-
----
-
-<img src="./assets/profile-overview.svg" width="100%" alt="이선우 개발자 역량 요약">
-
----
-
-<img src="./assets/engineering-dashboard.svg" width="100%" alt="이선우 엔지니어링 대시보드">
+<img src="./assets/portfolio-dashboard.svg" width="100%" alt="Portfolio Operating System">
 
 ---
 
@@ -48,6 +40,19 @@
 | LLM Serving | TTFT, 토큰 생성 속도, 동시 요청 처리량을 측정하는가 |
 | Data | 인덱스, 트랜잭션, 마이그레이션 전략이 정리되어 있는가 |
 | Ops | 로그와 지표로 문제 위치를 좁힐 수 있는가 |
+
+<details>
+<summary>프로필 대시보드 아카이브</summary>
+
+<br>
+
+<img src="./assets/developer-os.svg" width="100%" alt="Sunwoo DevOS">
+
+<img src="./assets/profile-overview.svg" width="100%" alt="이선우 개발자 역량 요약">
+
+<img src="./assets/engineering-dashboard.svg" width="100%" alt="이선우 엔지니어링 대시보드">
+
+</details>
 
 ## 시스템 설계 메모
 
