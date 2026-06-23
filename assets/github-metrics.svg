@@ -1,56 +1,97 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360" role="img" aria-labelledby="title desc">
-  <title id="title">이선우 GitHub 지표</title>
-  <desc id="desc">GitHub 공식 프로필에서 확인한 최근 1년 기여 수와 주요 저장소 활동 요약</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560" role="img" aria-labelledby="title desc">
+  <title id="title">이선우 GitHub 통계</title>
+  <desc id="desc">GitHub 활동과 사용 언어를 다크 카드 스타일로 정리한 통계 이미지</desc>
 
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#020617"/>
-      <stop offset="0.62" stop-color="#0f172a"/>
-      <stop offset="1" stop-color="#111827"/>
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#0b1220"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#38bdf8"/>
-      <stop offset="1" stop-color="#2dd4bf"/>
-    </linearGradient>
-    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
-      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#000000" flood-opacity="0.34"/>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#000000" flood-opacity="0.35"/>
     </filter>
   </defs>
 
-  <rect width="900" height="360" rx="22" fill="url(#bg)"/>
-  <circle cx="770" cy="74" r="150" fill="#2563eb" opacity="0.12"/>
-  <circle cx="88" cy="314" r="140" fill="#14b8a6" opacity="0.10"/>
+  <rect width="900" height="560" rx="20" fill="url(#bg)"/>
+  <rect x="22" y="22" width="856" height="516" rx="18" fill="none" stroke="#30363d"/>
 
-  <text x="48" y="56" fill="#60a5fa" font-family="Pretendard, Noto Sans KR, Apple SD Gothic Neo, sans-serif" font-size="26" font-weight="760">이선우의 GitHub 활동 요약</text>
-  <text x="48" y="86" fill="#94a3b8" font-family="Pretendard, Noto Sans KR, Apple SD Gothic Neo, sans-serif" font-size="14">GitHub 공식 프로필에서 확인한 최근 1년 기준</text>
-  <rect x="48" y="108" width="804" height="3" rx="1.5" fill="url(#accent)"/>
+  <g font-family="Pretendard, Noto Sans KR, Apple SD Gothic Neo, Segoe UI, sans-serif">
+    <text x="96" y="92" fill="#58a6ff" font-size="30" font-weight="800">이선우의 GitHub 통계</text>
 
-  <g transform="translate(48 138)" filter="url(#shadow)" font-family="Pretendard, Noto Sans KR, Apple SD Gothic Neo, sans-serif">
-    <rect width="250" height="154" rx="18" fill="#0b1120" stroke="#1e3a5f"/>
-    <text x="26" y="42" fill="#94a3b8" font-size="15">최근 1년 기여</text>
-    <text x="26" y="100" fill="#f8fafc" font-size="54" font-weight="800">308</text>
-    <text x="130" y="100" fill="#38bdf8" font-size="18" font-weight="700">contributions</text>
-    <text x="26" y="130" fill="#64748b" font-size="13">공식 contribution graph 기준</text>
-  </g>
+    <g transform="translate(96 132)" font-size="25" font-weight="760">
+      <text x="42" y="24" fill="#c9d1d9">받은 스타 수:</text>
+      <text x="374" y="24" fill="#c9d1d9">0</text>
 
-  <g transform="translate(326 138)" filter="url(#shadow)" font-family="Pretendard, Noto Sans KR, Apple SD Gothic Neo, sans-serif">
-    <rect width="250" height="154" rx="18" fill="#0b1120" stroke="#1e3a5f"/>
-    <text x="26" y="42" fill="#94a3b8" font-size="15">최근 활동 저장소</text>
-    <text x="26" y="100" fill="#f8fafc" font-size="54" font-weight="800">7</text>
-    <text x="70" y="100" fill="#2dd4bf" font-size="18" font-weight="700">repositories</text>
-    <text x="26" y="130" fill="#64748b" font-size="13">프로필 활동 영역 기준</text>
-  </g>
+      <text x="42" y="68" fill="#c9d1d9">전체 기여 수:</text>
+      <text x="374" y="68" fill="#c9d1d9">310</text>
 
-  <g transform="translate(604 138)" filter="url(#shadow)" font-family="Pretendard, Noto Sans KR, Apple SD Gothic Neo, sans-serif">
-    <rect width="248" height="154" rx="18" fill="#0b1120" stroke="#1e3a5f"/>
-    <text x="26" y="42" fill="#94a3b8" font-size="15">주요 작업 영역</text>
-    <text x="26" y="76" fill="#f8fafc" font-size="20" font-weight="760">Backend · RAG</text>
-    <text x="26" y="106" fill="#f8fafc" font-size="20" font-weight="760">ERP · Mobile</text>
-    <text x="26" y="130" fill="#64748b" font-size="13">실서비스와 포트폴리오 중심</text>
-  </g>
+      <text x="42" y="112" fill="#c9d1d9">PR 횟수:</text>
+      <text x="374" y="112" fill="#c9d1d9">1</text>
 
-  <g transform="translate(48 322)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">
-    <text fill="#38bdf8">note</text>
-    <text x="42" fill="#94a3b8">외부 커밋 통계 API 대신 공식 GitHub 프로필 기준으로 표기</text>
+      <text x="42" y="156" fill="#c9d1d9">이슈 개수:</text>
+      <text x="374" y="156" fill="#c9d1d9">0</text>
+
+      <text x="42" y="200" fill="#c9d1d9">최근 1년 기여:</text>
+      <text x="374" y="200" fill="#c9d1d9">310</text>
+    </g>
+
+    <g transform="translate(92 130)" fill="none" stroke="#1f6feb" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M13 2.5l3.2 6.4 7.1 1-5.1 5 1.2 7-6.4-3.4-6.3 3.4 1.2-7-5.1-5 7.1-1z"/>
+      <path transform="translate(0 44)" d="M12 2a10 10 0 1 0 10 10"/>
+      <path transform="translate(0 44)" d="M12 6v7l5 3"/>
+      <path transform="translate(0 88)" d="M8 4h8M12 4v18M6 10l6-6 6 6M6 18l6 6 6-6"/>
+      <circle transform="translate(0 132)" cx="12" cy="12" r="10"/>
+      <path transform="translate(0 132)" d="M12 7v6"/>
+      <circle transform="translate(0 132)" cx="12" cy="17" r="1"/>
+      <path transform="translate(0 176)" d="M5 4h14a2 2 0 0 1 2 2v13H3V6a2 2 0 0 1 2-2z"/>
+      <path transform="translate(0 176)" d="M8 23h8"/>
+    </g>
+
+    <g transform="translate(620 128)" filter="url(#softShadow)">
+      <circle cx="72" cy="72" r="72" fill="#0f2747"/>
+      <circle cx="72" cy="72" r="58" fill="#c9d1d9"/>
+      <circle cx="72" cy="72" r="50" fill="#0d1117"/>
+      <path fill="#c9d1d9" d="M72 24c-27 0-49 22-49 49 0 21 13 38 31 45 2 0 3-1 3-2v-10c-12 3-15-5-15-5-2-5-5-7-5-7-4-3 0-3 0-3 5 0 8 5 8 5 4 8 12 6 15 4 0-3 2-6 3-7-10-1-20-5-20-23 0-5 2-9 5-13-1-1-2-6 0-12 0 0 4-1 13 5 4-1 8-2 12-2s8 1 12 2c9-6 13-5 13-5 2 6 1 11 0 12 3 4 5 8 5 13 0 18-10 22-20 23 2 2 3 5 3 10v15c0 1 1 2 3 2 18-7 31-24 31-45 0-27-22-49-49-49z"/>
+    </g>
+
+    <text x="214" y="352" fill="#58a6ff" font-size="34" font-weight="800">Most Used Languages</text>
+
+    <g transform="translate(214 394)">
+      <rect x="0" y="0" width="500" height="16" rx="8" fill="#21262d"/>
+      <rect x="0" y="0" width="147" height="16" rx="8" fill="#e34c26"/>
+      <rect x="147" y="0" width="138" height="16" fill="#f1e05a"/>
+      <rect x="285" y="0" width="115" height="16" fill="#b07219"/>
+      <rect x="400" y="0" width="47" height="16" fill="#4F5D95"/>
+      <rect x="447" y="0" width="33" height="16" fill="#563d7c"/>
+      <rect x="480" y="0" width="8" height="16" fill="#c6538c"/>
+      <rect x="488" y="0" width="6" height="16" fill="#3572A5"/>
+      <rect x="494" y="0" width="6" height="16" rx="8" fill="#A97BFF"/>
+    </g>
+
+    <g transform="translate(214 446)" font-size="21" font-weight="560">
+      <circle cx="10" cy="8" r="10" fill="#e34c26"/>
+      <text x="30" y="15" fill="#c9d1d9">HTML 29.39%</text>
+
+      <circle cx="310" cy="8" r="10" fill="#563d7c"/>
+      <text x="330" y="15" fill="#c9d1d9">CSS 6.61%</text>
+
+      <circle cx="10" cy="58" r="10" fill="#f1e05a"/>
+      <text x="30" y="65" fill="#c9d1d9">JavaScript 27.63%</text>
+
+      <circle cx="310" cy="58" r="10" fill="#c6538c"/>
+      <text x="330" y="65" fill="#c9d1d9">SCSS 1.68%</text>
+
+      <circle cx="10" cy="108" r="10" fill="#b07219"/>
+      <text x="30" y="115" fill="#c9d1d9">Java 23.01%</text>
+
+      <circle cx="310" cy="108" r="10" fill="#3572A5"/>
+      <text x="330" y="115" fill="#c9d1d9">Python 1.18%</text>
+
+      <circle cx="10" cy="158" r="10" fill="#4F5D95"/>
+      <text x="30" y="165" fill="#c9d1d9">PHP 9.43%</text>
+
+      <circle cx="310" cy="158" r="10" fill="#A97BFF"/>
+      <text x="330" y="165" fill="#c9d1d9">Kotlin 1.07%</text>
+    </g>
   </g>
 </svg>
