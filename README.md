@@ -4,9 +4,9 @@
 
 # 이선우
 
-백엔드와 AI 검색 시스템을 만듭니다.
+백엔드와 AI 검색 시스템을 다룹니다.
 
-RAG Pipeline · LLM Serving · Spring Boot · FastAPI · GPU Ops
+Spring Boot · FastAPI · RAG · vLLM · GPU Ops
 
 [![Email](https://img.shields.io/badge/Email-sunwoomjc@widiservice.com-111111?style=flat-square&logo=gmail&logoColor=white)](mailto:sunwoomjc@widiservice.com)
 [![GitHub](https://img.shields.io/badge/GitHub-sunwoo8478-111111?style=flat-square&logo=github&logoColor=white)](https://github.com/sunwoo8478)
@@ -18,18 +18,18 @@ RAG Pipeline · LLM Serving · Spring Boot · FastAPI · GPU Ops
 
 ## About
 
-사용자의 질문이 실제 업무에서 어떻게 쓰이는지 먼저 보고, 그 흐름에 맞춰 백엔드와 검색 시스템을 설계합니다.
+실제 업무 흐름에 맞춰 API, 검색 파이프라인, 운영 지표를 함께 봅니다. 기능이 돌아가는 것에서 끝내기보다, 배포 후에도 문제를 찾을 수 있는 구조를 좋아합니다.
 
-- 서울노동권익센터 AI 상담 챗봇 개발
-- Gemma 3 12B 기반 RAG 파이프라인 최적화
-- A100 GPU 서버에서 vLLM 서빙 및 부하 테스트
-- Spring Boot, FastAPI, React 기반 서비스 구현
+- 서울노동권익센터 AI 상담 챗봇을 개발하고 있습니다.
+- Gemma 3 12B 기반 RAG 파이프라인을 다듬고 있습니다.
+- A100 GPU 서버에서 vLLM 서빙과 부하 테스트를 진행했습니다.
+- Spring Boot, FastAPI, React를 주로 사용합니다.
 
 ## Projects
 
 ### 서울노동권익센터 AI 노무상담 챗봇
 
-비공개 프로젝트입니다. 노동 상담을 위한 RAG 기반 AI 챗봇을 설계하고 있습니다.
+비공개 프로젝트입니다. 노동 상담 데이터를 기반으로 답변 근거를 찾고, 필요한 경우 상담 연계까지 이어지는 흐름을 만들고 있습니다.
 
 - Gemma 3 12B, bge-m3, BGE-Reranker
 - vLLM, Ollama, A100 80GB GPU
@@ -38,14 +38,14 @@ RAG Pipeline · LLM Serving · Spring Boot · FastAPI · GPU Ops
 
 ### [한국어 지식 기반 RAG 어시스턴트](https://github.com/sunwoo8478/korean-chatbot)
 
-한국어 공공데이터를 검색하고 근거 기반 답변을 제공하는 RAG 서비스입니다.
+한국어 공공데이터 문서를 검색하고, 답변 근거를 함께 보여주는 RAG 서비스입니다.
 
 [![CI](https://github.com/sunwoo8478/korean-chatbot/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/sunwoo8478/korean-chatbot/actions/workflows/ci.yml)
 [![Last commit](https://img.shields.io/github/last-commit/sunwoo8478/korean-chatbot?style=flat-square&color=111111)](https://github.com/sunwoo8478/korean-chatbot/commits/main)
 
 ### [PayFit ERP](https://github.com/sunwoo8478/ERP)
 
-직원, 근태, 급여 계산, 법정 공제, 명세서 업무를 연결한 HR 시스템입니다.
+근태, 급여 계산, 법정 공제, 명세서 발급 흐름을 하나로 묶은 HR 시스템입니다.
 
 [![CI](https://github.com/sunwoo8478/ERP/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/sunwoo8478/ERP/actions/workflows/ci.yml)
 [![Last commit](https://img.shields.io/github/last-commit/sunwoo8478/ERP?style=flat-square&color=111111)](https://github.com/sunwoo8478/ERP/commits/main)
