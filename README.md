@@ -95,14 +95,7 @@ Backend · AI Search · RAG · LLM Serving
 
 <img src="./assets/github-stats-card.svg" width="100%" alt="이선우 GitHub 지표">
 
-</div>
-
-<details>
-<summary>Contribution graph</summary>
-
-<br>
-
-<div align="center">
+### Contribution Graph
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sunwoo8478/sunwoo8478/output/snake-dark.svg">
@@ -111,8 +104,6 @@ Backend · AI Search · RAG · LLM Serving
 </picture>
 
 </div>
-
-</details>
 
 ## Notes
 
