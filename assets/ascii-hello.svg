@@ -1,111 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc" preserveAspectRatio="xMidYMid meet">
-  <title id="title">3D ASCII Hello Terminal</title>
-  <desc id="desc">HELLO 문자를 입체 네온 아스키 스타일로 표현한 터미널 카드</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="360" viewBox="0 0 1100 360" role="img" aria-labelledby="title desc" preserveAspectRatio="xMidYMid meet">
+  <title id="title">Clean ASCII Hello</title>
+  <desc id="desc">검은 터미널 화면에 흰색 ASCII HELLO를 표시한 이미지</desc>
 
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#020617"/>
-      <stop offset="0.55" stop-color="#0b1220"/>
-      <stop offset="1" stop-color="#0d1117"/>
-    </linearGradient>
-    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#b3f5ff"/>
-      <stop offset="0.45" stop-color="#58a6ff"/>
-      <stop offset="1" stop-color="#1f6feb"/>
-    </linearGradient>
-    <linearGradient id="mint" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#a7f3d0"/>
-      <stop offset="1" stop-color="#2dd4bf"/>
-    </linearGradient>
-    <linearGradient id="purple" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#f0abfc"/>
-      <stop offset="1" stop-color="#8957e5"/>
-    </linearGradient>
-    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#58a6ff"/>
-      <stop offset="0.52" stop-color="#2dd4bf"/>
-      <stop offset="1" stop-color="#d2a8ff"/>
-    </linearGradient>
-    <radialGradient id="glow" cx="50%" cy="40%" r="70%">
-      <stop offset="0" stop-color="#58a6ff" stop-opacity="0.24"/>
-      <stop offset="0.55" stop-color="#0d1117" stop-opacity="0"/>
-    </radialGradient>
-    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
-      <path d="M36 0H0V36" fill="none" stroke="#8b949e" stroke-opacity="0.08"/>
-    </pattern>
-    <filter id="softGlow" x="-30%" y="-45%" width="160%" height="190%">
-      <feGaussianBlur stdDeviation="7" result="blur"/>
-      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.24 0 0 0 0 0.70 0 0 0 0 1 0 0 0 0.75 0" result="glow"/>
-      <feMerge>
-        <feMergeNode in="glow"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
-      <feDropShadow dx="0" dy="22" stdDeviation="22" flood-color="#000000" flood-opacity="0.45"/>
-    </filter>
-    <style>
-      .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
-      .scan{animation:scan 4.5s linear infinite}
-      .blink{animation:blink 1.15s steps(2,end) infinite}
-      .pulse{animation:pulse 3.2s ease-in-out infinite}
-      @keyframes scan{0%{transform:translateY(-80px);opacity:0}15%{opacity:.55}70%{opacity:.55}100%{transform:translateY(310px);opacity:0}}
-      @keyframes blink{0%,45%{opacity:1}46%,100%{opacity:.08}}
-      @keyframes pulse{0%,100%{opacity:.48}50%{opacity:1}}
-    </style>
-  </defs>
+  <rect width="1100" height="360" rx="18" fill="#000000"/>
+  <rect x="18" y="18" width="1064" height="324" rx="14" fill="none" stroke="#222222"/>
 
-  <rect width="1200" height="360" rx="30" fill="url(#bg)"/>
-  <rect width="1200" height="360" rx="30" fill="url(#glow)"/>
-  <rect width="1200" height="360" rx="30" fill="url(#grid)"/>
-  <rect x="22" y="22" width="1156" height="316" rx="24" fill="none" stroke="#30363d"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" fill="#f5f5f5">
+    <text x="52" y="58" font-size="15">$ whoami</text>
+    <text x="52" y="88" font-size="15" fill="#c9c9c9">sunwoo8478</text>
 
-  <g filter="url(#shadow)">
-    <rect x="46" y="46" width="1108" height="268" rx="22" fill="#020617" fill-opacity="0.68" stroke="#253046"/>
-    <rect x="46" y="46" width="1108" height="46" rx="22" fill="#0b1220" fill-opacity="0.88"/>
-    <circle cx="76" cy="69" r="6" fill="#ff7b72"/>
-    <circle cx="98" cy="69" r="6" fill="#d29922"/>
-    <circle cx="120" cy="69" r="6" fill="#3fb950"/>
-    <text x="150" y="75" class="mono" fill="#8b949e" font-size="14">sunwoo8478@portfolio:~/hello-3d</text>
-    <rect x="46" y="92" width="1108" height="3" fill="url(#bar)" opacity="0.85"/>
+    <text x="52" y="142" font-size="25" font-weight="700" xml:space="preserve"> _   _ _____ _     _     ___  </text>
+    <text x="52" y="174" font-size="25" font-weight="700" xml:space="preserve">| | | | ____| |   | |   / _ \ </text>
+    <text x="52" y="206" font-size="25" font-weight="700" xml:space="preserve">| |_| |  _| | |   | |  | | | |</text>
+    <text x="52" y="238" font-size="25" font-weight="700" xml:space="preserve">|  _  | |___| |___| |__| |_| |</text>
+    <text x="52" y="270" font-size="25" font-weight="700" xml:space="preserve">|_| |_|_____|_____|_____\___/ </text>
+
+    <text x="52" y="318" font-size="15" fill="#c9c9c9">backend · rag · llm serving · systems</text>
+    <rect x="410" y="303" width="9" height="19" fill="#f5f5f5">
+      <animate attributeName="opacity" values="1;1;0;0;1" dur="1.2s" repeatCount="indefinite"/>
+    </rect>
   </g>
-
-  <g transform="translate(84 118)" class="mono" font-size="39" font-weight="900" letter-spacing="1" filter="url(#softGlow)">
-    <g fill="#07111f" opacity="0.9">
-      <text x="10" y="26">██╗  ██╗███████╗██╗     ██╗      ██████╗ </text>
-      <text x="10" y="70">██║  ██║██╔════╝██║     ██║     ██╔═══██╗</text>
-      <text x="10" y="114">███████║█████╗  ██║     ██║     ██║   ██║</text>
-      <text x="10" y="158">██╔══██║██╔══╝  ██║     ██║     ██║   ██║</text>
-      <text x="10" y="202">██║  ██║███████╗███████╗███████╗╚██████╔╝</text>
-      <text x="10" y="246">╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝ ╚═════╝ </text>
-    </g>
-    <g fill="#081624" opacity="0.95">
-      <text x="5" y="21">██╗  ██╗███████╗██╗     ██╗      ██████╗ </text>
-      <text x="5" y="65">██║  ██║██╔════╝██║     ██║     ██╔═══██╗</text>
-      <text x="5" y="109">███████║█████╗  ██║     ██║     ██║   ██║</text>
-      <text x="5" y="153">██╔══██║██╔══╝  ██║     ██║     ██║   ██║</text>
-      <text x="5" y="197">██║  ██║███████╗███████╗███████╗╚██████╔╝</text>
-      <text x="5" y="241">╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝ ╚═════╝ </text>
-    </g>
-    <g fill="url(#cyan)">
-      <text x="0" y="16">██╗  ██╗███████╗██╗     ██╗      ██████╗ </text>
-      <text x="0" y="60">██║  ██║██╔════╝██║     ██║     ██╔═══██╗</text>
-      <text x="0" y="104">███████║█████╗  ██║     ██║     ██║   ██║</text>
-      <text x="0" y="148">██╔══██║██╔══╝  ██║     ██║     ██║   ██║</text>
-      <text x="0" y="192">██║  ██║███████╗███████╗███████╗╚██████╔╝</text>
-      <text x="0" y="236">╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝ ╚═════╝ </text>
-    </g>
-  </g>
-
-  <g class="mono" font-size="14">
-    <rect x="840" y="122" width="270" height="152" rx="18" fill="#0b1220" fill-opacity="0.78" stroke="#30363d"/>
-    <text x="864" y="156" fill="#8b949e">$ ./hello --stack</text>
-    <text x="864" y="188" fill="#7ee787">backend: Spring Boot</text>
-    <text x="864" y="220" fill="#79c0ff">search: RAG pipeline</text>
-    <text x="864" y="252" fill="#d2a8ff">ops: GPU serving</text>
-    <rect class="blink" x="1064" y="238" width="9" height="20" fill="#58a6ff"/>
-  </g>
-
-  <rect class="scan" x="48" y="96" width="1104" height="38" fill="url(#bar)" opacity="0.18"/>
-  <circle class="pulse" cx="1112" cy="68" r="5" fill="#2dd4bf"/>
 </svg>
