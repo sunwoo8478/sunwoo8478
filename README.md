@@ -74,19 +74,7 @@ operate    배포, 모니터링, 부하 테스트, 장애 대응
 
 ## 설계 메모
 
-```mermaid
-flowchart LR
-    A[사용자 질문] --> B[Spring Boot API]
-    B --> C[질문 정규화]
-    C --> D[Vector Search]
-    D --> E[Reranker]
-    E --> F[Prompt Builder]
-    F --> G[vLLM / Ollama]
-    G --> H[SSE Streaming]
-    H --> I[사용자 답변]
-    B --> J[Logs / Metrics]
-    G --> J
-```
+<img src="./assets/rag-architecture.svg" width="100%" alt="RAG 아키텍처 흐름">
 
 ## 대표 프로젝트
 
