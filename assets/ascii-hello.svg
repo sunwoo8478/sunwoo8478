@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="250" viewBox="0 0 1000 250" role="img" aria-labelledby="title desc" preserveAspectRatio="xMidYMid meet">
+  <title id="title">ASCII Hello Terminal</title>
+  <desc id="desc">HELLO 문자를 아스키 아트 터미널 스타일로 표현한 이미지</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#020617"/>
+      <stop offset="1" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#58a6ff"/>
+      <stop offset="0.5" stop-color="#2dd4bf"/>
+      <stop offset="1" stop-color="#a371f7"/>
+    </linearGradient>
+    <filter id="shadow" x="-12%" y="-20%" width="124%" height="150%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#000000" flood-opacity="0.38"/>
+    </filter>
+    <style>
+      .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+      .blink{animation:blink 1.15s steps(2,end) infinite}
+      @keyframes blink{0%,45%{opacity:1}46%,100%{opacity:.08}}
+    </style>
+  </defs>
+
+  <rect width="1000" height="250" rx="24" fill="url(#bg)"/>
+  <rect x="20" y="20" width="960" height="210" rx="18" fill="none" stroke="#30363d"/>
+  <rect x="20" y="20" width="960" height="46" rx="18" fill="#0b1220"/>
+  <circle cx="50" cy="43" r="6" fill="#ff7b72"/>
+  <circle cx="72" cy="43" r="6" fill="#d29922"/>
+  <circle cx="94" cy="43" r="6" fill="#3fb950"/>
+  <text x="124" y="49" class="mono" fill="#8b949e" font-size="14">~/sunwoo8478/hello</text>
+  <rect x="20" y="65" width="960" height="3" fill="url(#line)" opacity="0.8"/>
+
+  <g class="mono" xml:space="preserve" font-size="23" font-weight="800" fill="#79c0ff">
+    <text x="56" y="108"> _   _ _____ _     _     ___  </text>
+    <text x="56" y="135">| | | | ____| |   | |   / _ \ </text>
+    <text x="56" y="162">| |_| |  _| | |   | |  | | | |</text>
+    <text x="56" y="189">|  _  | |___| |___| |__| |_| |</text>
+    <text x="56" y="216">|_| |_|_____|_____|_____\___/ </text>
+  </g>
+
+  <g class="mono" font-size="15">
+    <text x="612" y="118" fill="#8b949e">$ python main.py</text>
+    <text x="612" y="150" fill="#7ee787">hello, backend world</text>
+    <text x="612" y="182" fill="#c9d1d9">building reliable systems</text>
+    <rect class="blink" x="854" y="168" width="9" height="20" fill="#58a6ff"/>
+  </g>
+</svg>

@@ -11,6 +11,10 @@
 
 ---
 
+<img src="./assets/ascii-hello.svg" width="100%" alt="ASCII Hello Terminal">
+
+---
+
 <img src="./assets/portfolio-dashboard.svg" width="100%" alt="Portfolio Operating System">
 
 ---
