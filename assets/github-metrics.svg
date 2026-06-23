@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360" role="img" aria-labelledby="title desc">
+  <title id="title">이선우 GitHub 지표</title>
+  <desc id="desc">GitHub 공식 프로필에서 확인한 최근 1년 기여 수와 주요 저장소 활동 요약</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#020617"/>
+      <stop offset="0.62" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#2dd4bf"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#000000" flood-opacity="0.34"/>
+    </filter>
+  </defs>
+
+  <rect width="900" height="360" rx="22" fill="url(#bg)"/>
+  <circle cx="770" cy="74" r="150" fill="#2563eb" opacity="0.12"/>
+  <circle cx="88" cy="314" r="140" fill="#14b8a6" opacity="0.10"/>
+
+  <text x="48" y="56" fill="#60a5fa" font-family="Pretendard, Noto Sans KR, Apple SD Gothic Neo, sans-serif" font-size="26" font-weight="760">이선우의 GitHub 활동 요약</text>
+  <text x="48" y="86" fill="#94a3b8" font-family="Pretendard, Noto Sans KR, Apple SD Gothic Neo, sans-serif" font-size="14">GitHub 공식 프로필에서 확인한 최근 1년 기준</text>
+  <rect x="48" y="108" width="804" height="3" rx="1.5" fill="url(#accent)"/>
+
+  <g transform="translate(48 138)" filter="url(#shadow)" font-family="Pretendard, Noto Sans KR, Apple SD Gothic Neo, sans-serif">
+    <rect width="250" height="154" rx="18" fill="#0b1120" stroke="#1e3a5f"/>
+    <text x="26" y="42" fill="#94a3b8" font-size="15">최근 1년 기여</text>
+    <text x="26" y="100" fill="#f8fafc" font-size="54" font-weight="800">308</text>
+    <text x="130" y="100" fill="#38bdf8" font-size="18" font-weight="700">contributions</text>
+    <text x="26" y="130" fill="#64748b" font-size="13">공식 contribution graph 기준</text>
+  </g>
+
+  <g transform="translate(326 138)" filter="url(#shadow)" font-family="Pretendard, Noto Sans KR, Apple SD Gothic Neo, sans-serif">
+    <rect width="250" height="154" rx="18" fill="#0b1120" stroke="#1e3a5f"/>
+    <text x="26" y="42" fill="#94a3b8" font-size="15">최근 활동 저장소</text>
+    <text x="26" y="100" fill="#f8fafc" font-size="54" font-weight="800">7</text>
+    <text x="70" y="100" fill="#2dd4bf" font-size="18" font-weight="700">repositories</text>
+    <text x="26" y="130" fill="#64748b" font-size="13">프로필 활동 영역 기준</text>
+  </g>
+
+  <g transform="translate(604 138)" filter="url(#shadow)" font-family="Pretendard, Noto Sans KR, Apple SD Gothic Neo, sans-serif">
+    <rect width="248" height="154" rx="18" fill="#0b1120" stroke="#1e3a5f"/>
+    <text x="26" y="42" fill="#94a3b8" font-size="15">주요 작업 영역</text>
+    <text x="26" y="76" fill="#f8fafc" font-size="20" font-weight="760">Backend · RAG</text>
+    <text x="26" y="106" fill="#f8fafc" font-size="20" font-weight="760">ERP · Mobile</text>
+    <text x="26" y="130" fill="#64748b" font-size="13">실서비스와 포트폴리오 중심</text>
+  </g>
+
+  <g transform="translate(48 322)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">
+    <text fill="#38bdf8">note</text>
+    <text x="42" fill="#94a3b8">외부 커밋 통계 API 대신 공식 GitHub 프로필 기준으로 표기</text>
+  </g>
+</svg>
