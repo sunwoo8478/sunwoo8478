@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" role="img" aria-labelledby="title desc" preserveAspectRatio="xMidYMid meet">
+  <title id="title">Sunwoo DevOS</title>
+  <desc id="desc">개발자의 시스템 설계 흐름을 운영체제 대시보드처럼 표현한 이미지</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="0.48" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#101827"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#58a6ff"/>
+      <stop offset="0.5" stop-color="#2dd4bf"/>
+      <stop offset="1" stop-color="#d2a8ff"/>
+    </linearGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#8b949e" opacity="0.22"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#000000" flood-opacity="0.38"/>
+    </filter>
+    <style>
+      .sans{font-family:Pretendard,Noto Sans KR,Apple SD Gothic Neo,Segoe UI,sans-serif}
+      .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+      .dash{stroke-dasharray:8 12;animation:move 9s linear infinite}
+      .pulse{animation:pulse 3s ease-in-out infinite}
+      @keyframes move{to{stroke-dashoffset:-180}}
+      @keyframes pulse{0%,100%{opacity:.45}50%{opacity:1}}
+    </style>
+  </defs>
+
+  <rect width="1000" height="560" rx="30" fill="url(#bg)"/>
+  <rect width="1000" height="560" rx="30" fill="url(#dots)"/>
+  <rect x="24" y="24" width="952" height="512" rx="24" fill="none" stroke="#30363d"/>
+
+  <text x="58" y="78" class="sans" fill="#58a6ff" font-size="34" font-weight="900">Sunwoo DevOS</text>
+  <text x="58" y="108" class="mono" fill="#8b949e" font-size="14">a backend system builder for AI search products</text>
+
+  <g transform="translate(58 148)" filter="url(#shadow)">
+    <rect width="415" height="332" rx="22" fill="#020617" fill-opacity="0.82" stroke="#253046"/>
+    <circle cx="28" cy="28" r="6" fill="#ff7b72"/>
+    <circle cx="50" cy="28" r="6" fill="#d29922"/>
+    <circle cx="72" cy="28" r="6" fill="#3fb950"/>
+    <text x="30" y="72" class="mono" fill="#79c0ff" font-size="15">~/workspace/rag-system</text>
+    <text x="30" y="112" class="mono" fill="#8b949e" font-size="14">01  collect domain questions</text>
+    <text x="30" y="144" class="mono" fill="#c9d1d9" font-size="14">02  design retrieval pipeline</text>
+    <text x="30" y="176" class="mono" fill="#c9d1d9" font-size="14">03  measure answer quality</text>
+    <text x="30" y="208" class="mono" fill="#c9d1d9" font-size="14">04  tune serving latency</text>
+    <text x="30" y="240" class="mono" fill="#c9d1d9" font-size="14">05  deploy and observe</text>
+    <rect x="30" y="276" width="160" height="30" rx="15" fill="#10233d" stroke="#1f6feb"/>
+    <text x="110" y="296" class="sans" fill="#79c0ff" font-size="13" font-weight="800" text-anchor="middle">production-minded</text>
+    <rect x="205" y="276" width="160" height="30" rx="15" fill="#0f2a23" stroke="#2ea043"/>
+    <text x="285" y="296" class="sans" fill="#7ee787" font-size="13" font-weight="800" text-anchor="middle">metric-driven</text>
+  </g>
+
+  <g transform="translate(532 148)">
+    <rect width="410" height="332" rx="22" fill="#0b1220" fill-opacity="0.78" stroke="#253046"/>
+    <text x="32" y="54" class="sans" fill="#f0f6fc" font-size="22" font-weight="850">System Flow</text>
+
+    <g class="sans" font-size="15" font-weight="800">
+      <rect x="42" y="92" width="132" height="58" rx="16" fill="#10233d" stroke="#1f6feb"/>
+      <text x="108" y="127" fill="#79c0ff" text-anchor="middle">Question</text>
+      <rect x="236" y="92" width="132" height="58" rx="16" fill="#0f2a23" stroke="#2ea043"/>
+      <text x="302" y="127" fill="#7ee787" text-anchor="middle">Retriever</text>
+      <rect x="42" y="214" width="132" height="58" rx="16" fill="#211638" stroke="#8957e5"/>
+      <text x="108" y="249" fill="#d2a8ff" text-anchor="middle">Reranker</text>
+      <rect x="236" y="214" width="132" height="58" rx="16" fill="#2b1b08" stroke="#d29922"/>
+      <text x="302" y="249" fill="#f2cc60" text-anchor="middle">Streaming</text>
+    </g>
+
+    <path class="dash" d="M174 121H236" stroke="url(#accent)" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path class="dash" d="M302 150V214" stroke="url(#accent)" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path class="dash" d="M236 243H174" stroke="url(#accent)" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path class="dash" d="M108 214V150" stroke="url(#accent)" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+    <circle class="pulse" cx="108" cy="121" r="5" fill="#58a6ff"/>
+    <circle class="pulse" cx="302" cy="121" r="5" fill="#2dd4bf"/>
+    <circle class="pulse" cx="108" cy="243" r="5" fill="#a371f7"/>
+    <circle class="pulse" cx="302" cy="243" r="5" fill="#d29922"/>
+
+    <text x="42" y="314" class="mono" fill="#8b949e" font-size="13">not just code: design → build → measure → operate</text>
+  </g>
+</svg>
