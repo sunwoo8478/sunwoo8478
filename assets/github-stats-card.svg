@@ -27,10 +27,10 @@
         <text x="476" y="24" fill="#c9d1d9" text-anchor="end">0</text>
 
         <text x="42" y="64" fill="#c9d1d9">전체 기여 수</text>
-        <text x="476" y="64" fill="#c9d1d9" text-anchor="end">338</text>
+        <text x="476" y="64" fill="#c9d1d9" text-anchor="end">367</text>
 
         <text x="42" y="104" fill="#c9d1d9">커밋 기여</text>
-        <text x="476" y="104" fill="#c9d1d9" text-anchor="end">181</text>
+        <text x="476" y="104" fill="#c9d1d9" text-anchor="end">186</text>
 
         <text x="42" y="144" fill="#c9d1d9">PR 횟수</text>
         <text x="476" y="144" fill="#c9d1d9" text-anchor="end">0</text>
@@ -63,32 +63,32 @@
 
     <g>
       <rect x="64" y="430" width="632" height="16" rx="8" fill="#21262d"/>
-      <rect x="64" y="430" width="314" height="16" rx="8" fill="#f1e05a"/>
-      <rect x="378" y="430" width="137" height="16" fill="#A97BFF"/>
-      <rect x="515" y="430" width="129" height="16" fill="#3572A5"/>
-      <rect x="644" y="430" width="30" height="16" fill="#663399"/>
-      <rect x="674" y="430" width="21" height="16" fill="#3178c6"/>
-      <rect x="695" y="430" width="4" height="16" rx="8" fill="#e34c26"/>
+      <rect x="64" y="430" width="309" height="16" rx="8" fill="#f1e05a"/>
+      <rect x="373" y="430" width="133" height="16" fill="#A97BFF"/>
+      <rect x="506" y="430" width="125" height="16" fill="#3572A5"/>
+      <rect x="631" y="430" width="39" height="16" fill="#663399"/>
+      <rect x="670" y="430" width="21" height="16" fill="#3178c6"/>
+      <rect x="691" y="430" width="5" height="16" rx="8" fill="#e34c26"/>
     </g>
 
     <g font-size="19" font-weight="560">
       <circle cx="74" cy="488" r="9" fill="#f1e05a"/>
-      <text x="94" y="495" fill="#c9d1d9">JavaScript 49.64%</text>
+      <text x="94" y="495" fill="#c9d1d9">JavaScript 48.97%</text>
 
       <circle cx="414" cy="488" r="9" fill="#A97BFF"/>
-      <text x="434" y="495" fill="#c9d1d9">Kotlin 21.73%</text>
+      <text x="434" y="495" fill="#c9d1d9">Kotlin 21.09%</text>
 
       <circle cx="74" cy="524" r="9" fill="#3572A5"/>
-      <text x="94" y="531" fill="#c9d1d9">Python 20.37%</text>
+      <text x="94" y="531" fill="#c9d1d9">Python 19.77%</text>
 
       <circle cx="414" cy="524" r="9" fill="#663399"/>
-      <text x="434" y="531" fill="#c9d1d9">CSS 4.75%</text>
+      <text x="434" y="531" fill="#c9d1d9">CSS 6.13%</text>
 
       <circle cx="74" cy="560" r="9" fill="#3178c6"/>
-      <text x="94" y="567" fill="#c9d1d9">TypeScript 3.39%</text>
+      <text x="94" y="567" fill="#c9d1d9">TypeScript 3.30%</text>
 
       <circle cx="414" cy="560" r="9" fill="#e34c26"/>
-      <text x="434" y="567" fill="#c9d1d9">HTML 0.12%</text>
+      <text x="434" y="567" fill="#c9d1d9">HTML 0.74%</text>
     </g>
   </g>
 </svg>
