@@ -27,10 +27,10 @@
         <text x="476" y="24" fill="#c9d1d9" text-anchor="end">0</text>
 
         <text x="42" y="64" fill="#c9d1d9">전체 기여 수</text>
-        <text x="476" y="64" fill="#c9d1d9" text-anchor="end">395</text>
+        <text x="476" y="64" fill="#c9d1d9" text-anchor="end">401</text>
 
         <text x="42" y="104" fill="#c9d1d9">커밋 기여</text>
-        <text x="476" y="104" fill="#c9d1d9" text-anchor="end">189</text>
+        <text x="476" y="104" fill="#c9d1d9" text-anchor="end">190</text>
 
         <text x="42" y="144" fill="#c9d1d9">PR 횟수</text>
         <text x="476" y="144" fill="#c9d1d9" text-anchor="end">0</text>
