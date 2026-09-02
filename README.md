@@ -5,6 +5,8 @@
 Backend / AI Search Engineer  
 RAG pipeline, LLM serving, API design, production-minded backend
 
+https://sunwoomjc.tistory.com/
+
 [![GitHub](https://img.shields.io/badge/GitHub-sunwoo8478-111111?style=flat-square&logo=github&logoColor=white)](https://github.com/sunwoo8478)
 [![Email](https://img.shields.io/badge/Email-sunwoomjc@widiservice.com-111111?style=flat-square&logo=gmail&logoColor=white)](mailto:sunwoomjc@widiservice.com)
 [![Views](https://komarev.com/ghpvc/?username=sunwoo8478&color=111111&style=flat-square&label=views)](https://github.com/sunwoo8478)
