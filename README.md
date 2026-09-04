@@ -16,7 +16,7 @@ $ cat ./profile
 name        Lee Sunwoo
 role        Backend / AI Search
 focus       retrieval quality, RAG, LLM serving, API systems
-current     Seoul Labor Portal AI counseling chatbot
+current     KIS 모의투자 24시간 자율매매 대시보드
 principle   make it work, then make the failure traceable
 ```
 
@@ -45,7 +45,9 @@ principle   make it work, then make the failure traceable
 | --- | --- | --- |
 | [Korean Knowledge Assistant](https://github.com/sunwoo8478/korean-chatbot) | 정확 검색과 벡터 검색을 함께 쓰는 한국어 RAG 서비스. 답변 근거, 리랭킹, SSE 스트리밍, 운영 콘솔까지 묶었습니다. [Architecture](https://github.com/sunwoo8478/korean-chatbot/blob/main/docs/ARCHITECTURE.md) · [Operations](https://github.com/sunwoo8478/korean-chatbot/blob/main/docs/OPERATIONS.md) | FastAPI, PostgreSQL, pgvector, React |
 | [PayFit ERP](https://github.com/sunwoo8478/ERP) | 직원, 근태, 급여 계산, 공제, 승인, 명세서 흐름을 도메인 중심으로 구성한 HR·Payroll 시스템입니다. [Architecture](https://github.com/sunwoo8478/ERP/blob/master/docs/ARCHITECTURE.md) · [Payroll Rules](https://github.com/sunwoo8478/ERP/blob/master/docs/PAYROLL_RULES.md) | Kotlin, Spring Boot, PostgreSQL, React |
+| [KIS 모의투자 대시보드](https://github.com/sunwoo8478/kis-paper-trading) | 실계좌 연동 전 전략을 검증하는 24시간 자율 매매 시스템입니다. 시세 감시, 로컬 LLM 판단, 위험 한도, 모의 체결, 성과 기록을 정규장 동안 자동 반복합니다. | FastAPI, Next.js, SQLite, pykrx |
 | 서울노동포털 AI 노무상담 챗봇 | 비공개 프로젝트입니다. 노동 상담 데이터를 기반으로 검색 근거를 찾고, 상담 연계까지 이어지는 흐름을 만들고 있습니다. | Java, Spring Boot, React, MariaDB, vLLM |
+| 최근 사이드 프로젝트 | 비공개 저장소로 진행 중인 소규모 실무 프로젝트들입니다 — 여행 족보 공유 앱(Flutter), 안산 차량등록 관리 시스템(Java/Spring), 카페·정원 소개 웹(Next.js/TypeScript). | Flutter, Spring Boot, Next.js, TypeScript |
 
 ## Proof of Work
 
